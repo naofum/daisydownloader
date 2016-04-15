@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId 'com.github.naofum.daisydownloader'
+        minSdkVersion 9
+        targetSdkVersion 22
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    maven {
+        url "https://mint.splunk.com/gradle/"
+    }
+    maven {
+        url "http://dl.bintray.com/countly/maven"
+    }
+}
+
+dependencies {
+    compile 'com.google.guava:guava:14.0.1'
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:22.0.+'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+//    compile 'ly.count.android:sdk:16.02'
+    compile 'com.splunk.mint:mint:5.0.0'
+    compile 'org.jsoup:jsoup:1.8.3'
+    //    compile 'commons-io:commons-io:2.4'
+    compile 'ly.count:sdk-android:13.11'
+    compile project(':daisy-engine')
+}

@@ -1,0 +1,506 @@
+<books type="1">
+	<website url="http://www.gov-online.go.jp/pr/media/cd/" name="政府広報">
+		<book link="http://www.gov-online.go.jp/pr/media/cd/index.html">
+			<title>政府広報　明日への声</title>
+			<author></author>
+			<publisher>内閣府</publisher>
+			<date></date>
+		</book>
+	</website>
+	<website url="http://www.koho.metro.tokyo.jp/" name="東京都">
+		<book link="http://www.koho.metro.tokyo.jp/koho/2016/04/voice.htm">
+			<title>広報東京都　音声版　平成28年4月号</title>
+			<author></author>
+			<publisher>東京都</publisher>
+			<date>2016/4</date>
+		</book>
+		<book link="http://www.city.suginami.tokyo.jp/koho/onsei/1022779/1022783.html">
+			<title>広報すぎなみ（音声データ）　平成28年4月1日号</title>
+			<author></author>
+			<publisher>杉並区</publisher>
+			<date>2016/4/1</date>
+		</book>
+		<book link="http://www.city.kodaira.tokyo.jp/shihou/048/voice_048872.html">
+			<title>小平市報音声版「声のたより」：2016年4月5日号</title>
+			<author></author>
+			<publisher>小平市</publisher>
+			<date>2016/4/5</date>
+		</book>
+	</website>
+	<website url="http://www.city.fukuchiyama.kyoto.jp/" name="福知山市　広報">
+		<book link="http://www.city.fukuchiyama.kyoto.jp/onsei/right/ncc.html">
+			<title>人権学習教材「That's　Right」</title>
+			<author></author>
+			<publisher>福知山市</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.city.fukuchiyama.kyoto.jp/onsei/gomi_mp3/ncc.html">
+			<title>家庭ごみの正しい分け方・出し方</title>
+			<author></author>
+			<publisher>福知山市</publisher>
+			<date></date>
+		</book>
+	</website>
+	<website url="http://www.htctu.net/demos" name="調布デイジー">
+		<book link="http://daisybooks.sakura.ne.jp/daisybooks/2011ehon/tanukitoyotaro/ncc.html">
+			<title>狸と与太郎</title>
+			<author>夢野久作</author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+		<book link="http://daisybooks.sakura.ne.jp/daisybooks/2011ehon/ookamito7hikinokodomoyagi/ncc.html">
+			<title>おおかみと七ひきのこどもやぎ</title>
+			<author>グリム兄弟</author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+		<book link="http://daisybooks.sakura.ne.jp/daisybooks/2012ehon/nagagutsu/ncc.html">
+			<title>長ぐつをはいたネコ</title>
+			<author>ペロー</author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+		<book link="http://daisybooks.sakura.ne.jp/daisybooks/2012ehon/kozosan/ncc.html">
+			<title>こぞうさんのおきょう</title>
+			<author>新美南吉</author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+		<book link="http://daisybooks.sakura.ne.jp/daisybooks/2012ehon/kachikachi/ncc.html ">
+			<title>かちかち山</title>
+			<author>楠山正雄</author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.daisybooks.sakura.ne.jp/lib2012summer/ncc.html">
+			<title>調布図書館　図書館だより　2012　夏</title>
+			<author></author>
+			<publisher>調布デイジー</publisher>
+			<date></date>
+		</book>
+	</website>
+	<website url="http://www.tsurugashima-psv.org/daisy.htm" name="鶴ヶ島パソコンサポートボランティア">
+		<book link="http://www.tsurugashima-psv.org/daisy/akatonbo_p/ncc.html">
+			<title>赤とんぼ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/asi_p/ncc.html">
+			<title>あし</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/dendenmushi_p/ncc.html">
+			<title>デンデンムシ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kaninosyoubai_p/ncc.html">
+			<title>蟹のしょうばい</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kitune_p/ncc.html">
+			<title>狐のつかい</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kyonennoki_p/ncc.html">
+			<title>去年の木</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kyusuke_p/ncc.html">
+			<title>久助君の話</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/oootoko_p/ncc.html">
+			<title>巨男の話</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/otoshitaissendoka_p/ncc.html">
+			<title>落とした一銭銅貨</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/takenoko_p/ncc.html">
+			<title>たけのこ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/usiwotunaidatubakinoki_p/ncc.html">
+			<title>牛をつないだ椿の木</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/uso_p/ncc.html">
+			<title>嘘</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/utatokei_p/ncc.html">
+			<title>うた時計</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/amedama_p/ncc.html">
+			<title>飴だま</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/gacho_p/ncc.html">
+			<title>がちょうの　たんじょうび</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/nihikino_p/ncc.html">
+			<title>二ひきの蛙</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/norainu_p/ncc.html">
+			<title>のら犬</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/ousamatokutsuya_p/ncc.html">
+			<title>王様と靴屋</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/satonoharu_p/ncc.html">
+			<title>里の春、山の春</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/syouboutokuro_p/ncc.html">
+			<title>正坊とクロ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/tulip_p/ncc.html">
+			<title>チューリップ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/wataro_p/ncc.html">
+			<title>和太郎さんと牛</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/gongitune_p/ncc.html">
+			<title>ごん狐</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/tebukurookaini_p/ncc.html">
+			<title>手袋を買いに</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kinoko_p/ncc.html">
+			<title>きのこ会議</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/okane_pisutoru_p/ncc.html">
+			<title>お金とピストル</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/inu_itazura_p/ncc.html">
+			<title>犬のいたずら</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/inu_osama_p/ncc.html">
+			<title>犬の王様</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/tanuki_yotaro_p/ncc.html">
+			<title>狸と与太郎</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/akaikutu_p/ncc.html">
+			<title>赤いくつ</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/hikoukaban_p/ncc.html">
+			<title>ひこうかばん</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/minikuiahirunoko_p/ncc.html">
+			<title>醜い家鴨の子</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/mominoki_p/ncc.html">
+			<title>もみの木</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/nonohakucho_p/ncc.html">
+			<title>野のはくちょう</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/suzu_p/ncc.html">
+			<title>しっかり者のすずの兵隊</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/tyumon_p/ncc.html">
+			<title>注文の多い料理店</title>
+			<author>宮沢賢治</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/yodakanohosi_p/ncc.html">
+			<title>よだかの星</title>
+			<author>宮沢賢治</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/tamago_p/ncc.html">
+			<title>たまご</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/otouka_p/ncc.html">
+			<title>おとうか</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kumonoito/ncc.html">
+			<title>蜘蛛の糸</title>
+			<author>芥川龍之介</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/chiisakimonohe/ncc.html">
+			<title>小さき者へ</title>
+			<author>有島武郎</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/hitohusano-budou/ncc.html">
+			<title>一房の葡萄</title>
+			<author>有島武郎</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/hadakano-ousama/ncc.html">
+			<title>はだかの王様</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/macchiurino-shoujo/ncc.html">
+			<title>マッチ売りの少女</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/oyayubi-hime/ncc.html">
+			<title>おやゆび姫</title>
+			<author>アンデルセン</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kawa-kanoko/ncc.html">
+			<title>川</title>
+			<author>岡本かの子</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/lemon/ncc.html">
+			<title>檸檬</title>
+			<author>梶井基次郎</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/nakanowarui-kyoudai/ncc.html">
+			<title>仲の悪い姉妹</title>
+			<author>野口雨情</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/butsuzou/ncc.html">
+			<title>仏像</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/konkonsama/ncc.html">
+			<title>こんこん様</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/okanoueno-sekihi/ncc.html">
+			<title>丘の上の石碑</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/enma-daiou/ncc.html">
+			<title>えんま大王</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kura/ncc.html">
+			<title>くら</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/pontato-poko/ncc.html">
+			<title>ぽんたとぽこ</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/semi/ncc.html">
+			<title>セミ</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/monshirochouto-namiageha/ncc.html">
+			<title>モンシロチョウとナミアゲハ</title>
+			<author>古川貴江</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/amehuri-bouzu/ncc.html">
+			<title>雨ふり坊主</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/abuno-orei/ncc.html">
+			<title>虻のおれい</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kewpie/ncc.html">
+			<title>キューピー</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/ochanoyu-manpukudan/ncc.html">
+			<title>お茶の湯漫談</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/masayume/ncc.html">
+			<title>正夢</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kakenai-tantei-shousetsu/ncc.html">
+			<title>書けない探偵小説</title>
+			<author>夢野久作</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kabuto-mushi/ncc.html">
+			<title>かぶと虫</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kawa-nankichi/ncc.html">
+			<title>川</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/kitsune/ncc.html">
+			<title>狐</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/mimi/ncc.html">
+			<title>耳</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+		<book link="http://www.tsurugashima-psv.org/daisy/ojiisanno-lamp/ncc.html">
+			<title>おじいさんのランプ</title>
+			<author>新美南吉</author>
+			<publisher>鶴ヶ島パソコンサポートボランティア</publisher>
+			<date></date>
+		</book>
+	</website>
+	<website url="http://daisy.step-abc.jp/daisy-library.html" name="所沢マルチメディアデイジー">
+		<book link="http://daisybooks.step-abc.jp/library/rozymp3-0108/ncc.html">
+			<title>手回しオルゴールと歌　うたえほん</title>
+			<author>詞・曲・フェルト人形制作／高橋れい子　歌／菅井千春　朗読／絵比奈</author>
+			<publisher>所沢マルチメディアデイジー</publisher>
+			<date>2016/4</date>
+		</book>
+		<book link="http://daisybooks.step-abc.jp/library/namahage-mp3/ncc.html">
+			<title>年神様　なまはげ</title>
+			<author>作・絵・朗読　杉谷禎子</author>
+			<publisher>所沢マルチメディアデイジー</publisher>
+			<date>2016/4</date>
+		</book>
+		<book link="http://daisybooks.step-abc.jp/library/yasai/ncc.html">
+			<title>やさいもりもりげんきマン</title>
+			<author>作・絵・朗読　杉谷禎子</author>
+			<publisher>所沢マルチメディアデイジー</publisher>
+			<date>2016/4</date>
+		</book>
+	</website>
+</books>
