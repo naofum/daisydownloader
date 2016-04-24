@@ -320,7 +320,7 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
             try {
                 java.net.URL url = new java.net.URL(link);
                 URLConnection conection = url.openConnection();
-//                conection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0");
+                conection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0");
                 conection.setRequestProperty("Accept", "text/html");
                 conection.setRequestProperty("Accept-Language", "ja");
                 conection.setRequestProperty("Accept-Encoding", "deflate");
@@ -427,29 +427,6 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
                     } else {
                         runAsynCreateGovTask(params);
                     }
-
-//                    DaisyBook daisyBook = new DaisyBook();
-//                    String path = PATH + mName;
-//                    if (DaisyBookUtil.findDaisyFormat(path) == Constants.DAISY_202_FORMAT) {
-//                        daisyBook = DaisyBookUtil.getDaisy202Book(path);
-//                    } else {
-//                        daisyBook = DaisyBookUtil.getDaisy30Book(path);
-//                    }
-
-//                    DaisyBookInfo daisyBookInfo = new DaisyBookInfo();
-//                    daisyBookInfo.setAuthor(daisyBook.getAuthor());
-//                    Date date = daisyBook.getDate();
-//                    String sDate = formatDateOrReturnEmptyString(date);
-//                    daisyBookInfo.setDate(sDate);
-//                    daisyBookInfo.setPath(path);
-//                    daisyBookInfo.setPublisher(daisyBook.getPublisher());
-//                    daisyBookInfo.setSort(mDaisyBook.getSort());
-//                    daisyBookInfo.setTitle(daisyBook.getTitle());
-//                    if (mSql.addDaisyBook(daisyBookInfo, Constants.TYPE_DOWNLOADED_BOOK)) {
-//                        Intent intent = new Intent(DaisyReaderDownloadBooks.this,
-//                                DaisyReaderDownloadedBooks.class);
-//                        DaisyReaderDownloadBooks.this.startActivity(intent);
-//                    }
                 }
             } catch (Exception e) {
                 PrivateException ex = new PrivateException(e, DaisyReaderDownloadBooks.this);
@@ -654,21 +631,6 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
                     } else {
                         daisyBook = DaisyBookUtil.getDaisy30Book(path);
                     }
-
-//                    DaisyBookInfo daisyBookInfo = new DaisyBookInfo();
-//                    daisyBookInfo.setAuthor(daisyBook.getAuthor());
-//                    Date date = daisyBook.getDate();
-//                    String sDate = formatDateOrReturnEmptyString(date);
-//                    daisyBookInfo.setDate(sDate);
-//                    daisyBookInfo.setPath(path);
-//                    daisyBookInfo.setPublisher(daisyBook.getPublisher());
-//                    daisyBookInfo.setSort(mDaisyBook.getSort());
-//                    daisyBookInfo.setTitle(daisyBook.getTitle());
-//                    if (mSql.addDaisyBook(daisyBookInfo, Constants.TYPE_DOWNLOADED_BOOK)) {
-//                        Intent intent = new Intent(DaisyReaderDownloadBooks.this,
-//                                DaisyReaderDownloadedBooks.class);
-//                        DaisyReaderDownloadBooks.this.startActivity(intent);
-//                    }
                 }
             } catch (Exception e) {
                 PrivateException ex = new PrivateException(e, DaisyReaderDownloadBooks.this);
@@ -856,21 +818,6 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
                     } else {
                         daisyBook = DaisyBookUtil.getDaisy30Book(path);
                     }
-
-//                    DaisyBookInfo daisyBookInfo = new DaisyBookInfo();
-//                    daisyBookInfo.setAuthor(daisyBook.getAuthor());
-//                    Date date = daisyBook.getDate();
-//                    String sDate = formatDateOrReturnEmptyString(date);
-//                    daisyBookInfo.setDate(sDate);
-//                    daisyBookInfo.setPath(path);
-//                    daisyBookInfo.setPublisher(daisyBook.getPublisher());
-//                    daisyBookInfo.setSort(mDaisyBook.getSort());
-//                    daisyBookInfo.setTitle(daisyBook.getTitle());
-//                    if (mSql.addDaisyBook(daisyBookInfo, Constants.TYPE_DOWNLOADED_BOOK)) {
-//                        Intent intent = new Intent(DaisyReaderDownloadBooks.this,
-//                                DaisyReaderDownloadedBooks.class);
-//                        DaisyReaderDownloadBooks.this.startActivity(intent);
-//                    }
                 }
             } catch (Exception e) {
                 PrivateException ex = new PrivateException(e, DaisyReaderDownloadBooks.this);
@@ -911,10 +858,19 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
         } else if (mDaisyBook.getPath().indexOf("www.koho.metro.tokyo.jp") >= 0) {
             String split[] = mDaisyBook.getPath().split("/");
             Document document = Jsoup.parse(new FileInputStream(PATH + mName), "Shift_JIS", PATH);
-            Elements elements = document.select("div[id=content] > table > tr");
+            Elements elements = document.select("div[id=content] table tr");
             for (org.jsoup.nodes.Element element : elements) {
                 links.add(element.select("td > a").text());
                 links.add(mDaisyBook.getPath().substring(0, mDaisyBook.getPath().length() - split[split.length - 1].length()) + element.select("td > a").attr("href"));
+            }
+            //大田区
+        } else if (mDaisyBook.getPath().indexOf("www.city.ota.tokyo.jp") >= 0) {
+            String split[] = mDaisyBook.getPath().split("/");
+            Document document = Jsoup.parse(new FileInputStream(PATH + mName), "Shift_JIS", PATH);
+            Elements elements = document.select("tbody > tr");
+            for (org.jsoup.nodes.Element element : elements) {
+                links.add(element.select("a").text());
+                links.add("http://www.city.ota.tokyo.jp" + element.select("a").attr("href"));
             }
             //杉並区
         } else if (mDaisyBook.getPath().indexOf("www.city.suginami.tokyo.jp") >= 0) {
@@ -925,11 +881,20 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
                 links.add(element.select("a").text());
                 links.add(mDaisyBook.getPath().substring(0, mDaisyBook.getPath().length() - split[split.length - 1].length()) + element.select("a").attr("href"));
             }
+            //八王子市
+        } else if (mDaisyBook.getPath().indexOf("www.city.hachioji.tokyo.jp") >= 0) {
+            String split[] = mDaisyBook.getPath().split("/");
+            Document document = Jsoup.parse(new FileInputStream(PATH + mName), "UTF-8", PATH);
+            Elements elements = document.select("div[id=content] li");
+            for (org.jsoup.nodes.Element element : elements) {
+                links.add(element.select("a").text());
+                links.add(element.select("a").attr("href"));
+            }
             //小平市
         } else if (mDaisyBook.getPath().indexOf("www.city.kodaira.tokyo.jp") >= 0) {
             String split[] = mDaisyBook.getPath().split("/");
             Document document = Jsoup.parse(new FileInputStream(PATH + mName), "UTF-8", PATH);
-            Elements elements = document.select("div.mp3 > li");
+            Elements elements = document.select("div.mp3 li");
             for (org.jsoup.nodes.Element element : elements) {
                 links.add(element.select("a").text());
                 links.add(mDaisyBook.getPath().substring(0, mDaisyBook.getPath().length() - split[split.length - 1].length()) + element.select("a").attr("href"));
@@ -983,7 +948,7 @@ public class DaisyReaderDownloadBooks extends DaisyEbookReaderBaseActivity {
         sb.append("<seq>\n");
         sb.append("<par endsync=\"last\">\n");
         sb.append("<seq>\n");
-        sb.append(String.format("<audio src=\"file%1$04d.mp3\" id=\"file%1$04d\" />\n", no));
+        sb.append(String.format("<audio src=\"file%1$04d.mp3\" clip-begin=\"0.000s\" clip-end=\"0.000s\" id=\"file%1$04d\" />\n", no));
         sb.append("</seq>\n");
         sb.append("</par>\n");
         sb.append("</seq>\n");

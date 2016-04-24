@@ -14,17 +14,41 @@
 			<publisher>東京都</publisher>
 			<date>2016/4</date>
 		</book>
+		<book link="http://www.city.ota.tokyo.jp/kuho/kuho_onsei/onsei_20160421.html">
+			<title>おおた区報　音声版　平成28年4月21日号</title>
+			<author></author>
+			<publisher>大田区</publisher>
+			<date>2016/4/21</date>
+		</book>
+		<book link="http://www.city.suginami.tokyo.jp/koho/onsei/1022779/1023006.html">
+			<title>広報すぎなみ（音声データ）　平成28年4月11日号</title>
+			<author></author>
+			<publisher>杉並区</publisher>
+			<date>2016/4/11</date>
+		</book>
 		<book link="http://www.city.suginami.tokyo.jp/koho/onsei/1022779/1022783.html">
 			<title>広報すぎなみ（音声データ）　平成28年4月1日号</title>
 			<author></author>
 			<publisher>杉並区</publisher>
 			<date>2016/4/1</date>
 		</book>
+		<book link="http://www.city.kodaira.tokyo.jp/shihou/048/voice_048909.html">
+			<title>小平市報音声版「声のたより」：2016年4月20日号</title>
+			<author></author>
+			<publisher>小平市</publisher>
+			<date>2016/4/20</date>
+		</book>
 		<book link="http://www.city.kodaira.tokyo.jp/shihou/048/voice_048872.html">
 			<title>小平市報音声版「声のたより」：2016年4月5日号</title>
 			<author></author>
 			<publisher>小平市</publisher>
 			<date>2016/4/5</date>
+		</book>
+		<book link="http://www.city.hachioji.tokyo.jp/seisaku/joho/24504/024662.html">
+			<title>八王子市 声の広報（平成28年4月20日号）</title>
+			<author></author>
+			<publisher>八王子市</publisher>
+			<date>2016/4/20</date>
 		</book>
 	</website>
 	<website url="http://www.city.fukuchiyama.kyoto.jp/" name="福知山市　広報">

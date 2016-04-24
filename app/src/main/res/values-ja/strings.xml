@@ -16,7 +16,7 @@
     <string name="cancel_bookmark">キャンセル</string>
     <string name="desc_simple_mode">このモードは目の不自由な人と読みに関する障害がある人のためにデザインされています</string>
     <string name="desc_visual_mode">グラフィカルモードでは、大きなグラフィカルな要素を含めて、すべてのメニューが発声されます</string>
-    <string name="error_title">DaisyReader - メッセージ</string>
+    <string name="error_title">DaisyDownloader - メッセージ</string>
     <string name="error_no_path_found">SD カードに %s が見つかりません。もう一度確認してください</string>
     <string name="error_wrong_format">このデイジー本は形式が間違っています</string>
     <string name="error_wrong_format_audio">このデイジー本に含まれるオーディオファイルが、このアプリケーションでサポートされていません</string>
